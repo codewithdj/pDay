@@ -41,3 +41,17 @@ body {
 #mainText{
     margin-top: 20%;
 }
+button{
+  color: black;
+  background-color: #986500;
+  border: white 1px solid;
+}
+#askButtons{
+  margin-left: 20%;
+  margin-top: 5%;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #986500;
+    border-color: #986500;
+}
