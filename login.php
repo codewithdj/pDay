@@ -37,14 +37,14 @@
     <div class="container">
 
       <form class="form-signin" method="POST">
-        <h2 class="form-signin-heading">Please sign in</h2>
+        <h2 class="form-signin-heading">Verify your Potty Id</h2>
         <label for="inputEmail" class="sr-only">Potty Id</label>
-        <input type="text" id="enrollment" name="enrollment" class="form-control" placeholder="Enrollment Number" required autofocus>
+        <input type="text" id="enrollment" name="enrollment" class="form-control" placeholder="Potty Id" required autofocus>
         <label for="inputPassword" class="sr-only">Paadword</label>
-        <input type="password" name="inputPassword" id="inputPassword" class="form-control" placeholder="Password" required>
+        <input type="password" name="inputPassword" id="inputPassword" class="form-control" placeholder="Paadword" required>
         <div class="checkbox">
           <label>
-            <input type="checkbox" value="remember-me"> Remember me
+            <input type="checkbox" value="remember-me"> Remember my smell
           </label>
         </div>
 

@@ -38,3 +38,9 @@ body {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
+
+.btn-primary {
+    color: #fff;
+    background-color: #986500;
+    border-color: #986500;
+}
