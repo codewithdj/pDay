@@ -1,0 +1,43 @@
+body {
+  padding-top: 50px;
+  background-color: #2A2637;
+  color:white;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+#mainPooImg{
+  height:200px;
+  width: 300px;
+  background-repeat: no-repeat;
+}
+
+.navbar-inverse{
+  background-color: #2A2637;
+  border: none;
+  color:white;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #ffffff;
+    font-weight: bolder;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: #2A2637;
+     font-weight: bolder;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #ffffff;
+    font-weight: bolder;
+}
+#imgCont{
+  margin-top: 15%;
+  
+}
+#mainText{
+    margin-top: 20%;
+}
