@@ -31,9 +31,18 @@
 
     <script>
            $(function(){
-            $("#shitPic").draggable();
-            $("#shitDrop").droppable();
 
+               $("#btnYes").click(function(){
+                  $("#onYes").show();
+                  $("#askButtons").hide();
+                  $("#text").hide();
+               })
+
+
+
+           /* $("#shitPic").draggable();
+            $("#shitDrop").droppable();
+*/
           /* $("#shitDrop").droppable({
              drop:  function(event,ui){
                    $(this).find("p").html("Dropped").css('fontsize','xx-large');
@@ -76,11 +85,17 @@
                 <img class="pull-right" id="mainPooImg" src="images/2.png"/>
             </div>
             <div class="col-md-6" id="mainText">
-                <h2>Kya <span style="color:#986500"><b>Potty</b></span> Tune kar li aaj??</h2>
+                <h2 id="text">Kya <span style="color:#986500"><b>Potty</b></span> Tune kar li aaj???</h2>
                 <div id="askButtons">
-                    <button class="btn btn-primary">Yes</button>
-                    <button class="btn btn-primary">No</button>
+                    <button id="btnYes" class="btn btn-primary">Yes</button>
+                    <button id="btnNo" class="btn btn-primary">No</button>
                 </div>                
+                <div id="onYes">
+                        <h3>Aaj Kya Use Kiya??</h3>
+                         <button id="btnWater" class="btn btn-primary">Water</button>
+                         <button id="btnTissue" class="btn btn-primary">Tissue</button>
+                    
+                </div>
             </div>
             
       </div>
@@ -94,6 +109,11 @@
           </div>
 
       </div>-->
+
+      <footer>
+          <h2>Soch nahi sauchalaya badlo</h2>
+          <h2 style="margin-left:40%">सोच नहीं शौचालय बदलो| </h2>
+      </footer>
 
     </div><!-- /.container -->
 
