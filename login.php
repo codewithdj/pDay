@@ -78,7 +78,7 @@
           }*/
 
           if($pottyId=='potty' && $paadword='mummykarli'){
-             header('location: hagnekbaad.php');
+             header('location: hagnekbaad.html');
           }
           else
           {
