@@ -59,7 +59,7 @@
 
           $conn = mysqli_connect("in-cdbr-azure-south-c.cloudapp.net","b884278164bf7d","63fe6227","poop");
           if($conn){
-            echo 'Chal to raha hai!!';
+            echo '<b>Hagg to raha hai!!</b>';
           }
           
           $query = "SELECT * FROM ulogin WHERE password='$password' AND enrollNo = '$enrollment'";
