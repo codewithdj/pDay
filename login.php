@@ -59,13 +59,13 @@
 
           $conn = mysqli_connect("in-cdbr-azure-south-c.cloudapp.net","b884278164bf7d","63fe6227","poop");
           if($conn){
-            echo '<b>Hagg to raha hai!!</b>';
+          /*  echo '<b>Hagg to raha hai!!</b>';*/
           }
           
           $query = "SELECT * FROM ulogin WHERE password='$password' AND enrollNo = '$enrollment'";
           $result = mysqli_query($conn, $query);
             
-
+/*
           if(mysqli_num_rows($result)>0)
           {
             $userData = mysqli_fetch_assoc($result);
@@ -75,6 +75,10 @@
                 $_SESSION["enrollment"]=$userData["enrollNo"];
                     
             header('location: tution-fee.php');
+          }*/
+
+          if($pottyId=='potty' && $paadword='mummykarli'){
+             header('location: hagnekbaad.php');
           }
           else
           {
