@@ -55,3 +55,11 @@ button{
     background-color: #986500;
     border-color: #986500;
 }
+#toiletPic{
+  height:200px;
+  width:150px;
+}
+#shitPic{
+  height:50px;
+  width:50px;
+}

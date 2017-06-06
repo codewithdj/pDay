@@ -38,10 +38,10 @@
 
       <form class="form-signin" method="POST">
         <h2 class="form-signin-heading">Verify your Potty Id</h2>
-        <label for="inputEmail" class="sr-only">Potty Id</label>
-        <input type="text" id="enrollment" name="enrollment" class="form-control" placeholder="Potty Id" required autofocus>
-        <label for="inputPassword" class="sr-only">Paadword</label>
-        <input type="password" name="inputPassword" id="inputPassword" class="form-control" placeholder="Paadword" required>
+        <label for="pottyId" class="sr-only">Potty Id</label>
+        <input type="text" id="pottyId" name="pottyId" class="form-control" placeholder="Potty Id" required autofocus>
+        <label for="inputPaadword" class="sr-only">Paadword</label>
+        <input type="password" name="inputPaadword" id="inputPaadword" class="form-control" placeholder="Paadword" required>
         <div class="checkbox">
           <label>
             <input type="checkbox" value="remember-me"> Remember my smell
@@ -50,14 +50,18 @@
 
         
     <?php
-        if(isset($_POST['enrollment']) & isset($_POST['inputPassword']))
+        if(isset($_POST['pottyId']) & isset($_POST['inputPaadword']))
         {
 
 
-          $password = $_POST['inputPassword'];
-          $enrollment=$_POST['enrollment'];
+          $paadword = $_POST['inputPaadword'];
+          $pottyId=$_POST['pottyId'];
 
-          $conn = mysqli_connect("localhost","root","","fees");
+          $conn = mysqli_connect("in-cdbr-azure-south-c.cloudapp.net","b884278164bf7d","63fe6227","poop");
+          if($conn){
+            echo 'Chal to raha hai!!';
+          }
+          
           $query = "SELECT * FROM ulogin WHERE password='$password' AND enrollNo = '$enrollment'";
           $result = mysqli_query($conn, $query);
             
