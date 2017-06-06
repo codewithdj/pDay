@@ -64,7 +64,6 @@ button{
   width:50px;
 }
 
-
 footer{
   margin-top:20%; 
 }
@@ -72,11 +71,22 @@ footer> h2{
   display: inline-block;
 }
 
-#onYes{
+#onYes, #onWater,#onTissue{
   display: none;
    margin-left: 20%;
    margin-top: 5%;
 }
 #onYes button{
   margin-left:5%;
+}
+#onNo{
+  display: none;
+  text-align: center;
+   margin-left: 10%;
+   
+   
+}
+#onNo h3{
+  color: #986500;
+  font-weight: bolder;
 }

@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Starter Template for Bootstrap</title>
+    <title>Potty.poo</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -36,7 +36,25 @@
                   $("#onYes").show();
                   $("#askButtons").hide();
                   $("#text").hide();
-               })
+               });
+
+               $("#btnWater").click(function(){
+                   $("#onYes").hide();
+                   $("#onWater").show();
+               });
+
+                $("#btnTissue").click(function(){
+                   $("#onYes").hide();
+                   $("#onTissue").show();
+               });
+
+               $("#btnNo").click(function()
+               {
+                   $("#askButtons").hide();
+                   $("#text").hide();
+                   $("#onNo").show();
+               });
+
 
 
 
@@ -95,6 +113,21 @@
                          <button id="btnWater" class="btn btn-primary">Water</button>
                          <button id="btnTissue" class="btn btn-primary">Tissue</button>
                     
+                </div>
+                <div id="onWater">
+                    <h3>Great!! You have saved 3 leaves today!!! </h3>
+                </div>
+                <div id="onTissue">
+                    <h3>Oho!! Bade Angrejon wale shauk kar rahe ho.</h3>
+                </div>
+
+                <div id="onNo">
+                    <h2>Please click here to Know the correct process of doing shit!!</h3>
+                    <h3>Keep Pressure and do Shit!!</h4>
+                </div>
+
+                <div id="socialMedia">
+
                 </div>
             </div>
             
