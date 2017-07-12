@@ -90,3 +90,8 @@ footer> h2{
   color: #986500;
   font-weight: bolder;
 }
+
+#socialMedia{
+  margin-left: 40%;
+  text-align: center;
+}
